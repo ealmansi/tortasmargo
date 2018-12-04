@@ -17,6 +17,6 @@
     "start": "next start",
     "preexport": "yarn build",
     "export": "next export",
-    "pages": "git subtree push --prefix out origin gh-pages"
+    "pages": "git push origin `git subtree split --prefix out master`:gh-pages --force"
   }
 }
