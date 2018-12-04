@@ -109,7 +109,7 @@ function Contact () {
     <article id='contact' className='panel'>
       <header>
         <h2>Contáctenos</h2>
-        <p>Deje un mensaje con su consulta y nos contáctaremos con usted a la brevedad.</p>
+        <p>Deje un mensaje con su consulta y nos contactaremos con usted a la brevedad.</p>
       </header>
       <form action='https://formspree.io/info@tortasmargo.com' method='POST'>
         <input type='hidden' name='_language' value='es' />
