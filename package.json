@@ -17,6 +17,6 @@
     "start": "next start",
     "preexport": "yarn build",
     "export": "next export",
-    "publish": "git subtree push --prefix out origin gh-pages"
+    "pages": "git subtree push --prefix out origin gh-pages"
   }
 }
