@@ -74,7 +74,7 @@ function Me () {
         </ul>
       </header>
       <a href='#work' className='jumplink pic'>
-        <span className='arrow icon fa-chevron-right'><span>See my work</span></span>
+        <span className='arrow icon fa-chevron-right'><span>Ver productos</span></span>
         <img className='pic-bg' src='/static/images/me2.jpg' alt='' />
         <img className='pic-fg' src='/static/images/noun_Cake_1103521_gray.svg' alt='' />
       </a>
