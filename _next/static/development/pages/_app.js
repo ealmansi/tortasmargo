@@ -9762,7 +9762,7 @@ function (_App) {
           lineNumber: 19
         },
         __self: this
-      }, "\xA9 Tortas Margo | Tortas ricas y accesibles. A domicilio.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _extends({}, pageProps, {
+      }, "Tortas Margo\u2122 | Tortas ricas y accesibles. A domicilio.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
