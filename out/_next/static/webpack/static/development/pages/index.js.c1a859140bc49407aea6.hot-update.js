@@ -1,50 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./node_modules/react/index.js":
-/*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_e8427f5b250f425a56e7 ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_e8427f5b250f425a56e7 */ "dll-reference dll_e8427f5b250f425a56e7"))("./node_modules/react/index.js");
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/*!*******************************************!*\
-  !*** (webpack)/buildin/harmony-module.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if (!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
+webpackHotUpdate("static/development/pages/index.js",{
 
 /***/ "./pages/index.js":
 /*!************************!*\
@@ -253,62 +207,55 @@ function Me() {
       lineNumber: 49
     },
     __self: this
-  }, "Tortas ricas y accesibles.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Tortas ricas y accesibles. A domicilio."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }), "Tambi\xE9n a domicilio."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Email:"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "info@tortasmargo.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:info@tortasmargo.com",
+    className: "icon fa-phone",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "mailto:info@tortasmargo.com",
-    className: "icon fa-envelope",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "info@tortasmargo.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "tel:+5491140954928",
-    className: "icon fa-phone",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
   }, "(11) 15 4095-4928"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -316,54 +263,34 @@ function Me() {
     className: "icon fa-whatsapp",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 59
     },
     __self: this
-  }, "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 60
     },
     __self: this
-  }, "+5491140954928"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.facebook.com/tortasmargo",
-    className: "icon fa-facebook",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, "facebook.com/tortasmargo"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "+5491140954928"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#work",
     className: "jumplink pic",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "arrow icon fa-chevron-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 66
     },
     __self: this
   }, "See my work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -372,7 +299,7 @@ function Me() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 67
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -381,7 +308,7 @@ function Me() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 68
     },
     __self: this
   })));
@@ -393,45 +320,45 @@ function Work() {
     className: "panel",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 78
     },
     __self: this
   }, "Productos y Servicios")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 80
     },
     __self: this
   }, "Realizamos deliciosas tortas por encargo con env\xEDo a domicilio. Consulte tambi\xE9n por otros productos dulces y salados."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -439,7 +366,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -447,14 +374,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 84
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -462,7 +389,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -470,14 +397,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 87
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -485,7 +412,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -493,14 +420,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 90
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -508,7 +435,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -516,14 +443,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 93
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -531,7 +458,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -539,14 +466,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 96
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 98
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -554,7 +481,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -562,14 +489,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 99
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 101
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -577,7 +504,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -585,14 +512,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 102
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 104
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -600,7 +527,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 105
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -608,14 +535,14 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 105
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-4 col-6-medium col-12-small",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 107
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -623,7 +550,7 @@ function Work() {
     className: "image fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 108
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -631,7 +558,7 @@ function Work() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 108
     },
     __self: this
   }))))));
@@ -643,25 +570,25 @@ function Contact() {
     className: "panel",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 119
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 120
     },
     __self: this
   }, "Cont\xE1ctenos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 121
     },
     __self: this
   }, "Deje un mensaje con su consulta y nos contactaremos con usted a la brevedad.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -669,7 +596,7 @@ function Contact() {
     method: "POST",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -678,7 +605,7 @@ function Contact() {
     value: "es",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 124
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -687,27 +614,27 @@ function Contact() {
     value: "/#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 125
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-6 col-12-medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -716,14 +643,14 @@ function Contact() {
     placeholder: "Nombre",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 129
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-6 col-12-medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 131
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -732,14 +659,14 @@ function Contact() {
     placeholder: "Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 132
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 134
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -748,14 +675,14 @@ function Contact() {
     placeholder: "Asunto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 135
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 137
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
@@ -764,14 +691,14 @@ function Contact() {
     rows: "6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 138
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 140
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -779,7 +706,7 @@ function Contact() {
     value: "Enviar Mensaje",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 141
     },
     __self: this
   }))))));
@@ -790,32 +717,32 @@ function Footer() {
     id: "footer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 152
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "copyright",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 154
     },
     __self: this
   }, "Tortas Margo \u2122"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 154
     },
     __self: this
   }, "Dise\xF1o: HTML5 UP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 154
     },
     __self: this
   }, "Logo: Cake by SBTS from the Noun Project")));
@@ -840,32 +767,7 @@ function Footer() {
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
-/***/ }),
-
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
-
-return { page: module.exports.default }});
-
-/***/ }),
-
-/***/ "dll-reference dll_e8427f5b250f425a56e7":
-/*!*******************************************!*\
-  !*** external "dll_e8427f5b250f425a56e7" ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = dll_e8427f5b250f425a56e7;
-
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=index.js.c1a859140bc49407aea6.hot-update.js.map

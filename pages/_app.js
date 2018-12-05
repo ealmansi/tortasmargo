@@ -16,7 +16,7 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>&copy; Tortas Margo | Tortas ricas y accesibles. A domicilio.</title>
+          <title>Tortas Margo&trade; | Tortas ricas y accesibles. A domicilio.</title>
         </Head>
         <Component { ...pageProps } />
       </Container>

@@ -46,11 +46,31 @@ function Me () {
     <article id='home' className='panel intro'>
       <header>
         <h1>Tortas Margo</h1>
-        <p>Tortas ricas y accesibles. A domicilio.</p>
+        <p>
+          Tortas ricas y accesibles.<br />
+          También a domicilio.
+        </p>
         <ul>
-          <li><em>Email:</em> <a href='mailto:info@tortasmargo.com'>info@tortasmargo.com</a></li>
-          <li><em>Teléfono:</em> <a href='tel:+5491140954928'>(11) 4095-4928</a></li>
-          <li><em>WhatsApp:</em> <a href='https://wa.me/+5491140954928'>+5491140954928</a></li>
+          <li>
+            <a href='mailto:info@tortasmargo.com' className='icon fa-envelope'>
+              &nbsp;&nbsp;<span>info@tortasmargo.com</span>
+            </a>
+          </li>
+          <li>
+            <a href='tel:+5491140954928' className='icon fa-phone'>
+              &nbsp;&nbsp;<span>(11) 15 4095-4928</span>
+            </a>
+          </li>
+          <li>
+            <a href='https://wa.me/+5491140954928' className='icon fa-whatsapp'>
+              &nbsp;&nbsp;<span>+5491140954928</span>
+            </a>
+          </li>
+          <li>
+            <a href='https://www.facebook.com/tortasmargo' className='icon fa-facebook'>
+              &nbsp;&nbsp;<span>facebook.com/tortasmargo</span>
+            </a>
+          </li>
         </ul>
       </header>
       <a href='#work' className='jumplink pic'>
@@ -142,7 +162,7 @@ function Footer () {
   return (
     <div id='footer'>
       <ul className='copyright'>
-        <li>&copy; Tortas Margo.</li><li>Diseño: HTML5 UP</li><li>Logo: Cake by SBTS from the Noun Project</li>
+        <li>Tortas Margo &trade;</li><li>Diseño: HTML5 UP</li><li>Logo: Cake by SBTS from the Noun Project</li>
       </ul>
     </div>
   )
