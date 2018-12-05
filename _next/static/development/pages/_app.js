@@ -9762,10 +9762,51 @@ function (_App) {
           lineNumber: 19
         },
         __self: this
-      }, "Tortas Margo\u2122 | Tortas ricas y accesibles. A domicilio.")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _extends({}, pageProps, {
+      }, "Tortas Margo\u2122 | Tortas ricas y accesibles. A domicilio."), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
+        rel: "shortcut icon",
+        type: "image/png",
+        href: "/static/favicon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("meta", {
+        property: "og:image",
+        content: "/static/images/og-image.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("meta", {
+        property: "og:image:type",
+        content: "image/png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("meta", {
+        property: "og:image:width",
+        content: "500",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("meta", {
+        property: "og:image:height",
+        content: "500",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, _extends({}, pageProps, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
         },
         __self: this
       })));
